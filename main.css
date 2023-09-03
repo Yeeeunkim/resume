@@ -322,23 +322,47 @@ display: block;
 padding: 30px;
 }
 
+.about-area > .txt {
+  display: block;
+  padding: 30px;
+  }
+  
+
 @media (min-width: 992px) {
-.about-area > .text {
-  width: calc(60% - 100px);
+.about-area > .txt {
   display: inline-block;
   padding: 0 50px;
 }
 }
 
+@media (min-width: 992px) {
+  .about-area > .text {
+    width: calc(60% - 100px);
+    display: inline-block;
+    padding: 0 50px;
+  }
+  }
+  
+
 .about-area > .text * {
 font-size: 16px;
 }
+
+.about-area > .txt * {
+  font-size: 16px;
+  }
 
 .about-area > .text > .intro {
 padding: 20px 0;
 font-family: 'Noto Sans KR', sans-serif;
 letter-spacing: 1.5px;
 }
+
+.about-area > .txt > .info {
+  padding: 20px 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: 1.5px;
+  }
 
 .about-area > .text > ul {
 padding: 20px 0;
